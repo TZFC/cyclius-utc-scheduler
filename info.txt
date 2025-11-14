@@ -1,0 +1,13 @@
+{
+  "Name": "Cyclius UTC Scheduler",
+  "ID": "cyclius utc scheduler",
+  "Author": "PeachyFang",
+  "Description": "Automates Cyclius by UTC with swap-only logic. Default: Jade 00:00–11:59, Ruby 12:00–17:59, unslot 18:00–23:59 (leave empty). Optional “Move to Diamond” mode: Diamond 18:00–19:29, unslot 19:30–20:59, Diamond 21:00–22:29, unslot 22:30 then move Ruby’s occupant to Diamond (leave Ruby empty)",
+  "ModVersion": 9,
+  "GameVersion": 2.052,
+  "Date": "13/11/2025",
+  "Dependencies": [],
+  "LanguagePacks": [],
+  "Disabled": 0,
+  "AllowSteamAchievs": 1
+}
