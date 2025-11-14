@@ -73,10 +73,9 @@ Game.registerMod('cyclius utc scheduler', {
             ];
 
             label.innerHTML =
-                'Move to Diamond mode —<br>' +
-                (mod_self.settings.move_to_diamond
+                mod_self.settings.move_to_diamond
                     ? use_diamond_list.join('; <br>')
-                    : avoid_diamond_list.join('; <br>'));
+                    : avoid_diamond_list.join('; <br>');
 
             listing.appendChild(toggle_button);
             listing.appendChild(label);
@@ -261,4 +260,3 @@ Game.registerMod('cyclius utc scheduler', {
         if (this._interval_handle) clearInterval(this._interval_handle);
     }
 });
-
