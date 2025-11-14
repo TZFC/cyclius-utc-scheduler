@@ -165,7 +165,7 @@ Game.registerMod('cyclius utc scheduler', {
         // =========================
         // Coordinated Universal Time (UTC) schedule
         // =========================
-        // [Avoid Diamond] (default):00:00-04:00 Ruby; -12:00 Jade; -18:00 Ruby; -24:00 unslot
+        // [Avoid Diamond] (default):
         //   00:00–03:59 -> Ruby (1)
         //   04:00–11:59 -> Jade (2)
         //   12:00–17:59 -> Ruby (1)
@@ -261,3 +261,4 @@ Game.registerMod('cyclius utc scheduler', {
         if (this._interval_handle) clearInterval(this._interval_handle);
     }
 });
+
